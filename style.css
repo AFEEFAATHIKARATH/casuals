@@ -1425,57 +1425,9 @@ margin-top: 29px;
 
  
 }
-@media (max-width: 800px) {
-  .heading h2 {
-    font-size: 10px;
-  }
-
-  .heading h3 {
-    font-size: 8px;
-  }
-
-  .btn1 {
-    position: relative;
-
-    font-size: 7px;
-  }
-
-  .about-h1 {
-    font-size: 5px;
-  }
-
-  .about-p {
-    font-size: 3px;
-  }
-
-  /* .image-about {
-    width: 100%;
-    margin-right: 100px;
-
-  } */
-
-  .heading-2 {
-    font-size: 15px;
-  }
-
-  .para-2 {
-    font-size: 13px;
-  }
-
-  .mobile-view-row {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .content-card h4 {
-
-    font-size: 14px;
-    margin-left: 138px;
-
-  }
 
 
-}
+
 .parallax{
   background-image: url(./images/portrait-diverse-latin-people.jpg);
   background-attachment: fixed;
@@ -2155,5 +2107,62 @@ a {
   .explore {
     padding: 6px 35px 6px 35px;
     font-size: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .heading h2 {
+    font-size: 10px;
+  }
+
+  .heading h3 {
+    font-size: 8px;
+  }
+
+  .btn1 {
+    position: relative;
+
+    font-size: 7px;
+  }
+
+  .about-h1 {
+    font-size: 5px;
+  }
+
+  .about-p {
+    font-size: 3px;
+  }
+
+  /* .image-about {
+    width: 100%;
+    margin-right: 100px;
+
+  } */
+
+  .heading-2 {
+    font-size: 15px;
+  }
+
+  .para-2 {
+    font-size: 13px;
+  }
+
+  .mobile-view-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-card h4 {
+
+    font-size: 14px;
+    margin-left: 138px;
+
+  }
+
+  .card-title {
+    font-size: 10px;
+    text-align: center;
+  }
+  .card-img-top{
+    height: 100px;
   }
 }
