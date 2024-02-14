@@ -10,6 +10,7 @@
 
 }
 
+
 nav {
 
 
@@ -584,46 +585,7 @@ button.white {
   color:black;
 }
 
-#banner3 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0 88px;
-}
 
-#banner3 .banner-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 25px;
-  margin-bottom: 20px;
-  min-width: 30%;
-  height: 30vh;
-  background-image: url(img/banner/b7.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-#banner3 .banner-box2 {
-  background-image: url(img/banner/b4.jpg);
-}
-
-#banner3 .banner-box3 {
-  background-image: url(img/banner/b18.jpg);
-}
-
-#banner3 h2 {
-  color: #fff;
-  font-weight: 900;
-  font-size: 22px;
-}
-
-#banner3 h3 {
-  color: rgb(255, 0, 0);
-  font-weight: 8 00;
-  font-size: 15px;
-}
 
 #newsletter {
   display: flex;
@@ -653,20 +615,23 @@ button.white {
 }
 
 #newsletter input {
-  height: 3.125rem;
+  height: 3rem;
   padding: 0 1.25rem;
   font-size: 14px;
   width: 100%;
-  border: 1px solid transparent;
-  border-radius: 4px 0 0 4px;
+  /* border: 1px solid transparent; */
+   border-radius:none !important;
   outline: none;
 }
 
 #newsletter button {
   background-color:grey;
-  border-radius: 0 4px 4px 0;
+  /* border-radius: 0 4px 4px 0; */
   color: #fff;
   white-space: nowrap;
+
+  height: 3rem;
+  border-radius:none !important;
 }
 
 #newsletter .form {
