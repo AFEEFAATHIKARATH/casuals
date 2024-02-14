@@ -1834,7 +1834,7 @@ a {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 79px;
   }
 
   .responsive-container-block.bigContainer {
@@ -1974,14 +1974,15 @@ a {
   .text-blk.headingText {
     text-align: left;
     color: #000;
+    margin-left: 121px;
   }
 
   .text-blk.subHeadingText {
-    text-align: left;
+    text-align: center;
   }
 
   .text-blk.description {
-    text-align: left;
+    text-align:center;
   }
 
   .ultimateImg {
@@ -2039,20 +2040,21 @@ a {
   }
 
   .text-blk.subHeadingText {
-    font-size: 24px;
+    font-size: 14px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 13px;
     line-height: 28px;
   }
 
+    
   .text-blk.description {
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 17px;
     line-height: 22px;
   }
 
@@ -2168,4 +2170,5 @@ a {
   .button2{
     margin-left: -7px;
   }
+  
 }
