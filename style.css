@@ -571,7 +571,7 @@ button.white {
   font-size: 13px;
   font-weight: 600;
   padding: 11px 18px;
-  color: black;
+  color: white;
   background-color: transparent;
   cursor: pointer;
   border: 1px solid #fff;
@@ -2111,17 +2111,17 @@ a {
 }
 @media (max-width: 800px) {
   .heading h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .heading h3 {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .btn1 {
     position: relative;
 
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .about-h1 {
@@ -2164,5 +2164,8 @@ a {
   }
   .card-img-top{
     height: 100px;
+  }
+  .button2{
+    margin-left: -5pxpx;
   }
 }
